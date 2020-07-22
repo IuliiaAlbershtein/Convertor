@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		F82F558224B0B2CF00F3A256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F558124B0B2CF00F3A256 /* AppDelegate.swift */; };
 		F82F558424B0B2CF00F3A256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F558324B0B2CF00F3A256 /* SceneDelegate.swift */; };
-		F82F558624B0B2CF00F3A256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F558524B0B2CF00F3A256 /* ViewController.swift */; };
+		F82F558624B0B2CF00F3A256 /* ConversionViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F558524B0B2CF00F3A256 /* ConversionViewcontroller.swift */; };
 		F82F558924B0B2CF00F3A256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82F558724B0B2CF00F3A256 /* Main.storyboard */; };
-		F82F558B24B0B2D500F3A256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82F558A24B0B2D500F3A256 /* Assets.xcassets */; };
 		F82F558E24B0B2D500F3A256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82F558C24B0B2D500F3A256 /* LaunchScreen.storyboard */; };
 		F82F559924B0B2D500F3A256 /* Implementation_of_book_knowledgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F559824B0B2D500F3A256 /* Implementation_of_book_knowledgeTests.swift */; };
 		F82F55A424B0B2D600F3A256 /* Implementation_of_book_knowledgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F55A324B0B2D600F3A256 /* Implementation_of_book_knowledgeUITests.swift */; };
+		F82F55B424BBAFF800F3A256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82F55B324BBA18100F3A256 /* Assets.xcassets */; };
+		F82F55B824BF706400F3A256 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F55B724BF706400F3A256 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,8 @@
 		F82F557E24B0B2CE00F3A256 /* Implementation of book knowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Implementation of book knowledge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82F558124B0B2CF00F3A256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82F558324B0B2CF00F3A256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F82F558524B0B2CF00F3A256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F82F558524B0B2CF00F3A256 /* ConversionViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewcontroller.swift; sourceTree = "<group>"; };
 		F82F558824B0B2CF00F3A256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F82F558A24B0B2D500F3A256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82F558D24B0B2D500F3A256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F82F558F24B0B2D500F3A256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82F559424B0B2D500F3A256 /* Implementation of book knowledgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Implementation of book knowledgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +49,8 @@
 		F82F559F24B0B2D600F3A256 /* Implementation of book knowledgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Implementation of book knowledgeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82F55A324B0B2D600F3A256 /* Implementation_of_book_knowledgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation_of_book_knowledgeUITests.swift; sourceTree = "<group>"; };
 		F82F55A524B0B2D600F3A256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82F55B324BBA18100F3A256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/locajuli/Sources/Convertor/Convertor/Implementation of book knowledge/Assets.xcassets"; sourceTree = "<absolute>"; };
+		F82F55B724BF706400F3A256 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 			children = (
 				F82F558124B0B2CF00F3A256 /* AppDelegate.swift */,
 				F82F558324B0B2CF00F3A256 /* SceneDelegate.swift */,
-				F82F558524B0B2CF00F3A256 /* ViewController.swift */,
+				F82F558524B0B2CF00F3A256 /* ConversionViewcontroller.swift */,
 				F82F558724B0B2CF00F3A256 /* Main.storyboard */,
-				F82F558A24B0B2D500F3A256 /* Assets.xcassets */,
+				F82F55B724BF706400F3A256 /* MapViewController.swift */,
+				F82F55B324BBA18100F3A256 /* Assets.xcassets */,
 				F82F558C24B0B2D500F3A256 /* LaunchScreen.storyboard */,
 				F82F558F24B0B2D500F3A256 /* Info.plist */,
 			);
@@ -233,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82F558E24B0B2D500F3A256 /* LaunchScreen.storyboard in Resources */,
-				F82F558B24B0B2D500F3A256 /* Assets.xcassets in Resources */,
+				F82F55B424BBAFF800F3A256 /* Assets.xcassets in Resources */,
 				F82F558924B0B2CF00F3A256 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82F558624B0B2CF00F3A256 /* ViewController.swift in Sources */,
+				F82F558624B0B2CF00F3A256 /* ConversionViewcontroller.swift in Sources */,
 				F82F558224B0B2CF00F3A256 /* AppDelegate.swift in Sources */,
 				F82F558424B0B2CF00F3A256 /* SceneDelegate.swift in Sources */,
+				F82F55B824BF706400F3A256 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
